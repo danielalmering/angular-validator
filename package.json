@@ -5,5 +5,5 @@
   "main": "./dist/angular-validator.js",
   "scripts": {
     "test": "grunt test --verbose"
-  },
+  }
 }
