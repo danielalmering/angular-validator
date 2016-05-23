@@ -210,7 +210,7 @@ angular.module('angularValidator').directive('angularValidator', ['$injector', '
 
 
                 function generateErrorMessage(messageText) {
-                    return "<label class='control-label has-error validationMessage'>" + scope.$eval(messageText) + "</label>";
+                    return "<label class='control-label has-error validationMessage'><span>" + scope.$eval(messageText) + "</span></label>";
                 }
 
 
